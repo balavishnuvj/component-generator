@@ -12,3 +12,16 @@ npm install
 
 npm link . # if want the CLI to available anywhere
 ```
+
+## Usage
+
+```bash
+# from the repo
+npm run create-component
+
+# if you have installed globally
+gen
+
+# to pre-fill first prompt
+gen MyAwesomeButton
+```
