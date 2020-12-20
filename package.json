@@ -1,0 +1,29 @@
+{
+  "name": "component-generator",
+  "version": "0.1.0",
+  "description": "CLI to generate files based on your project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create-component": "plop --plopfile src/index.js"
+  },
+  "bin": {
+    "gen": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balavishnuvj/component-generator.git"
+  },
+  "keywords": [],
+  "author": "Balavishnu V J <hello@balavishnuvj.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/balavishnuvj/component-generator/issues"
+  },
+  "homepage": "https://github.com/balavishnuvj/component-generator#readme",
+  "devDependencies": {
+    "inquirer-select-directory": "^1.2.0",
+    "minimist": "^1.2.5",
+    "plop": "^2.7.4"
+  }
+}

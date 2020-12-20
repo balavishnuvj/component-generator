@@ -1,0 +1,25 @@
+/**
+ * Created By: {{ username }}
+ * Created On: {{ createdTime }}
+ */
+
+import React from 'react';
+import PropTypes from 'prop-types';
+{{#if wantUtils}}
+import { utils } from './{{ properCase name }}.utilities';
+{{/if}}
+
+
+function {{ properCase name }}({ children }) {
+  return <div>{children}</div>;
+}
+
+{{ properCase name }}.propTypes = {
+  children: PropTypes.node,
+};
+
+{{ properCase name }}.defaultProps = {
+  children: null,
+};
+
+export default {{ properCase name }};
